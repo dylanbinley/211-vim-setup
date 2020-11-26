@@ -5,7 +5,7 @@ Just follow the steps below!
 
 >Please note: This script is meant to run in bash. If you are on Mac/Linux, you should be good to go. If you are on Windows though, you will need to download a Linux distribution. I recommend downloading Ubuntu on the Microsoft store. If you liked using the Windows terminal, you can use it with Ubuntu by opening a new tab on the top and selecting Ubuntu once it's installed.  
 
-Running this script will overwrite whatever current configuration you have, please make sure that this is what you want before running.  
+Running this script will overwrite whatever current configuration you have, please make sure that this is what you want before doing this.  
 
 ### Steps
 1.
