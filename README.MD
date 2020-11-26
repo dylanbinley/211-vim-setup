@@ -1,10 +1,11 @@
 # 211-vim-setup 
 Want your vim to be set up just like the one in the comp 211 container?   
-Follow the steps below!  
->Please note: If you are on Windows, you will need to download a Linux distribution to run this script. I recommend downloading Ubuntu on the Microsoft store. If you like using the Windows terminal, you can continue to use it with Ubuntu by opening a new tab or changing the default settings.
+To customize vim, you need to edit your vimrc and install plugins. The following shell script will do that for you.  
+Just follow the steps below!  
+>Please note: This script is meant to run in bash. If you are on Mac/Linux, you should be good to go. If you are on Windows though, you will need to download a Linux distribution to run this script. I recommend downloading Ubuntu on the Microsoft store. If you like using the Windows terminal, you can continue to use it with Ubuntu by opening a new tab or changing the default settings.
 ### Steps
 1.
-Clone this repo  
+Clone this repository  
 
     git clone https://github.com/dbinleyUNC/211-vim-setup.git
 2. 
@@ -17,4 +18,5 @@ Run the shell script
 
     ./vim-setup.sh
 
->All code adapted from the 211 container (https://github.com/comp211/comp211-container)
+>All code adapted from the 211 container (https://github.com/comp211/comp211-container).  
+>I encourage you guys to check it out!
