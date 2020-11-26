@@ -2,7 +2,8 @@
 export DEBIAN_FRONTEND=noninteractive
 
 #install necessary tools
-sudo apt install build-essential cmake python3-dev vim 
+sudo apt-get update
+sudo apt -y install build-essential cmake python3-dev vim 
 
 #copy over configuration files
 cp ./.ycm_extra_conf.py ~/.ycm_extra_conf.py
