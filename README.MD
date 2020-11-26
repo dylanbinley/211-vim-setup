@@ -1,5 +1,5 @@
 # 211-vim-setup 
-Want your local vim to be set up just like the one in the comp 211 container?   
+Want your vim to be set up just like the one in the comp 211 container?   
 To customize vim, you need to edit your vimrc and install plugins. The following shell script will do that for you.  
 Just follow the steps below!
 
