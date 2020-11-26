@@ -2,7 +2,7 @@
 >Want your vim to be set up just like the one in the comp 211 container?   
 >Follow the steps below!
 >
->## 1.
+>##1.
 >Clone this repo  
 >>git clone https://github.com/dbinleyUNC/211-vim-setup.git
 >## 2. 
