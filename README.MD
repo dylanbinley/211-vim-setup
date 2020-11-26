@@ -17,4 +17,4 @@ Run the shell script
 
     ./vim-setup.sh
 
-All code adapted from the 211 container (https://github.com/comp211/comp211-container)
+>All code adapted from the 211 container (https://github.com/comp211/comp211-container)
