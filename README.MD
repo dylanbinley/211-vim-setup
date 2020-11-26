@@ -9,7 +9,7 @@ Just follow the steps below!
 1.
 Clone this repository  
 
-    git clone https://github.com/dbinleyUNC/211-vim-setup.git
+    git clone https://github.com/dylanbinley/211-vim-setup.git
 2. 
 Give permission to run the shell script  
 
