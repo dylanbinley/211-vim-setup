@@ -2,6 +2,7 @@
 Want your vim to be set up just like the one in the comp 211 container?   
 Follow the steps below!  
 >Please note: If you are on Windows, you will need to download a Linux distribution to run this script. I recommend downloading Ubuntu on the Microsoft store. If you like using the Windows terminal, you can continue to use it with Ubuntu by opening a new tab or changing the default settings.
+### Steps
 1.
 Clone this repo  
 
