@@ -20,6 +20,6 @@ fi
 #yes included to skip over unwanted messages in terminal 
 yes | vim -c 'PluginInstall' -c 'qa!'
 
-#finish YouCompleteMe plugin installation
+#finish YouCompleteMe installation
 cd ~/.vim/bundle/YouCompleteMe
 python3 install.py --clang-completer
