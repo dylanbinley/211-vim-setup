@@ -9,9 +9,11 @@ Running this script will overwrite whatever current configuration you have, plea
 
 ### Steps
 1.
-Clone this repository  
+Clone repository and enter folder  
 
-    git clone https://github.com/dylanbinley/211-vim-setup.git
+    git clone https://github.com/dylanbinley/211-vim-setup.git  
+    
+    cd 211-vim-setup
 2. 
 Give permission to run the shell script  
 
