@@ -41,7 +41,7 @@ If you want to turn this off, open your vimrc and delete the remaps correspondin
 
 #### Changing the colorscheme  
 Our current vimrc uses the plugin [gruvbox](https://github.com/morhetz/gruvbox) to set the colorscheme, and we are using dark mode. You can read more about configuring gruvbox [here](https://www.vim.org/scripts/script.php?script_id=4349).  
-To try out different colorschemes, you will need to download other plugins. [Here](https://vimcolorschemes.com/most-popular) is a webpage that includes popular vim colorschemes. Our vimrc is using Vundle to manage plugins, so you will need to run ```:PluginInstall``` inside of Vim.
+To try out different colorschemes, you will need to download other plugins. [Here](https://vimcolorschemes.com/most-popular) is a webpage that includes popular colorschemes. Our vimrc is using Vundle to manage plugins, so you will need to run ```:PluginInstall``` inside of Vim to install them.
 
 #### Starting From Scratch
 If you would like to make your own vimrc, you can delete the following files to start over.  
