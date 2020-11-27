@@ -36,7 +36,7 @@ As mentioned, all the Vim configuring is done in the vimrc. To open your vimrc a
 vim ~/.vimrc
 ```
 #### Allowing arrow keys  
-Currently, the arrow keys cannot be used to navigate through normal mode. This has been set with mappings towards the bottom of the vimrc.  
+Currently, the arrow keys cannot be used to navigate through normal mode. This has been set with mappings towards the bottom of the vimrc (lines 48-62).  
 If you want to turn this off, open your vimrc and delete the remaps corresponding to the arrow keys. The next time you open up Vim, it should work!  
 
 #### Changing the colorscheme  
@@ -51,4 +51,5 @@ rm ~/.ycm_extra_conf.py
 rm -rf ~/.vim
 ```
 
-You will need a plugin manager to add many of the features you want. You can read through either of the shell scripts to see how we downloaded vundle, but you can use other options as well. You will probably want YouCompleteMe for autocompletion, which requires extra installation instructions. You can find them [here](https://github.com/ycm-core/YouCompleteMe#installation), or you can just look through the shell scripts. Hopefully the vimrc and shell scripts here will serve as inspiration for your own Vim customization. Good luck!
+You will need a plugin manager to add many of the features you want. You can read through either of the shell scripts to see how we downloaded vundle, but you can use other options as well. You will probably want YouCompleteMe for autocompletion, which requires extra installation instructions. You can find them [here](https://github.com/ycm-core/YouCompleteMe#installation), or you can just look through the shell scripts. Hopefully the vimrc and shell scripts here will serve as inspiration for your own Vim customization.  
+Good luck!
