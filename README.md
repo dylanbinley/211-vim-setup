@@ -51,5 +51,6 @@ rm ~/.ycm_extra_conf.py
 rm -rf ~/.vim
 ```
 
-You will need a plugin manager to add many of the features you want. You can read through either of the shell scripts to see how we downloaded vundle, but you can use other options as well. You will probably want YouCompleteMe for autocompletion, which requires extra installation instructions. You can find them [here](https://github.com/ycm-core/YouCompleteMe#installation), or you can just look through the shell scripts. Hopefully the vimrc and shell scripts here will serve as inspiration for your own Vim customization.  
-Good luck!
+You will need a plugin manager to add many of the features you want. You can read through either of the shell scripts to see how we downloaded vundle, but you can use other options as well.  
+You will probably want YouCompleteMe for autocompletion, which requires extra installation instructions. You can find them [here](https://github.com/ycm-core/YouCompleteMe#installation), or you can just look through the shell scripts.  
+Hopefully, the vimrc and shell scripts here will serve as inspiration for your own Vim customization. Good luck!
