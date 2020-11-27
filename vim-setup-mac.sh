@@ -16,7 +16,7 @@ then
 else
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 fi
-#yes included to skip over unwanted messages in terminal 
+#yes included to skip over unwanted error messages in terminal 
 yes | vim -c 'PluginInstall' -c 'qa!'
 
 #finish YouCompleteMe installation
