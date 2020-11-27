@@ -66,3 +66,20 @@ inoremap <PageUp> <C-o>:echo "Press Ctrl+u"<CR>
 nnoremap <PageDown> :echo "Press Ctrl+d"<CR>
 vnoremap <PageDown> :<C-u>echo "Press Ctrl+d"<CR>
 inoremap <PageDown> <C-o>:echo "Press Ctrl+d"<CR>
+
+"some machines have different backspace behavior by default
+"we've added this mapping to avoid any issues
+"feel free to delete it and see if yours works without it
+"code from https://vim.fandom.com/wiki/Backspace_and_delete_problems
+inoremap <BS> <c-r>=Backspace()<CR>
+func Backspace()
+  if col('.') == 1
+    if line('.')  != 1
+      return  "\<ESC>Dk$p\<S-J>i"
+    else
+      return ""
+    endif
+  else
+    return "\<Left>\<Del>"
+  endif
+endfunc
