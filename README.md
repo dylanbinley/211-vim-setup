@@ -30,7 +30,7 @@ chmod u+x vim-setup-<linux/mac>.sh
 >All code adapted from the 211 container (https://github.com/comp211/comp211-container).  
 >I encourage you guys to check it out!  
 
-### Extra Configuation
+### Extra configuation
 As mentioned, all the Vim configuring is done in the vimrc. To open your vimrc and modify it, run the following command:  
 ```sh
 vim ~/.vimrc
@@ -43,7 +43,7 @@ If you want to turn this off, open your vimrc and delete the remaps correspondin
 Our current vimrc uses the plugin [gruvbox](https://github.com/morhetz/gruvbox) to set the colorscheme, and we are using dark mode. You can read more about configuring gruvbox [here](https://www.vim.org/scripts/script.php?script_id=4349).  
 To try out different colorschemes, you will need to download other plugins. [Here](https://vimcolorschemes.com/most-popular) is a webpage that includes popular colorschemes. Our vimrc is using Vundle to manage plugins, so you will need to run ```:PluginInstall``` inside of Vim to install them.
 
-#### Starting From Scratch
+#### Starting from scratch
 If you would like to make your own vimrc, you can delete the following files to start over.  
 ```sh
 rm ~/.vimrc
