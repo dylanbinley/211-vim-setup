@@ -5,7 +5,7 @@ brew install cmake python mono go nodejs
 brew install vim
 
 #copy over configuration files
-cp ./.ycm_extra_conf.py ~/.ycm_extra_conf.py
+cp ./.ycm_extra_conf.py ~/.ycm_extra_conf.py #highlighting for compiler errors, etc 
 cp ./.vimrc-final-with-ycm ~/.vimrc
 
 #install plugins
