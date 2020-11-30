@@ -3,7 +3,10 @@ Want your vim to be set up just like the one in the comp 211 container?
 To customize vim, you need to edit your vimrc and install plugins. These shell scripts should do that for you.  
 Just follow the steps below!
 
-Running this script will overwrite whatever current configuration you have. Please make sure that this is what you want before doing this.
+Running these scripts will overwrite whatever current configuration you have. Please make sure that this is what you want before doing this.  
+
+These scripts may take a while to run, and there is no guarantee that they will work on all operating systems.  
+If your OS is outdated, there may be issues with the YouCompleteMe installation (last line of the shell scripts), as it requires more recent versions of Vim and gcc/g++. [Here](https://ycm-core.github.io/YouCompleteMe/#installation) is a link to the YCM installation page incase you run into any problems. 
 
 ### Preparation
 1. If you are on Windows, you will need to download a Linux distribution, then you can run the Linux option. I recommend downloading Ubuntu through the Microsoft store. If you like using the Windows Terminal, you can use it with Ubuntu by opening a new tab on the top and selecting Ubuntu once it's installed. 
@@ -12,9 +15,6 @@ Running this script will overwrite whatever current configuration you have. Plea
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 3. If you are using Linux, you should be good to go.  
-
-These scripts may take a while to run, and there is no guarantee that they will work on all operating systems.  
-If your OS is outdated, there may be issues with the YouCompleteMe installation (last line of the shell scripts), as it requires more recent versions of Vim and gcc/g++. [Here](https://ycm-core.github.io/YouCompleteMe/#installation) is a link to the YCM installation page incase you run into any problems. 
 
 ### Steps
 1. Clone repository and enter folder  
