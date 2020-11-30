@@ -6,7 +6,7 @@ Just follow the steps below!
 Running these scripts will overwrite whatever current configuration you have. Please make sure that this is what you want before doing this.  
 
 These scripts may take a while to run, and there is no guarantee that they will work on all operating systems.  
-If your OS is outdated, there may be issues with the YouCompleteMe installation (last line of the shell scripts), as it requires more recent versions of Vim and your c/c++ compilers. [Here](https://ycm-core.github.io/YouCompleteMe/#installation) is a link to the YCM installation page incase you run into any problems. 
+If your OS is outdated, there may be issues with the YouCompleteMe installation (last line of the shell scripts), as it requires more recent versions of Vim and your C/C++ compilers. [Here](https://ycm-core.github.io/YouCompleteMe/#installation) is a link to the YCM installation page incase you run into any problems. 
 
 ### Preparation
 1. If you are on Windows, you will need to download a Linux distribution, then you can run the Linux option. I recommend downloading Ubuntu through the Microsoft store. If you like using the Windows Terminal, you can use it with Ubuntu by opening a new tab on the top and selecting Ubuntu once it's installed. 
