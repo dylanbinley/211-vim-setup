@@ -11,7 +11,10 @@ Running this script will overwrite whatever current configuration you have. Plea
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-3. If you are using Linux, you should be good to go. 
+3. If you are using Linux, you should be good to go.  
+
+These scripts may take a while to run, and there is no guarantee that they will work on all operating systems.  
+If your OS is outdated, there may be issues with the YouCompleteMe installation (last line of the shell scripts), as it requires more recent versions of Vim and gcc/g++. [Here](https://ycm-core.github.io/YouCompleteMe/#installation) is a link to the YCM installation page incase you run into any problems. 
 
 ### Steps
 1. Clone repository and enter folder  
@@ -51,6 +54,6 @@ rm ~/.ycm_extra_conf.py
 rm -rf ~/.vim
 ```
 
-You will need a plugin manager to add many of the features you want. You can read through either of the shell scripts to see how we downloaded vundle, but you can use other options as well.  
-You will probably want YouCompleteMe for autocompletion, which requires extra installation. You can find the instructions [here](https://github.com/ycm-core/YouCompleteMe#installation), or you can look through the shell scripts.  
+You will need a plugin manager to add many of the features you want. In the shell scripts, we installed Vundle, but there are other options too.  
+You will probably want YouCompleteMe for autocompletion, which requires extra installation. You can find the instructions [here](https://ycm-core.github.io/YouCompleteMe/#installation), or you can look through the shell scripts.  
 Hopefully, the vimrc and shell scripts here will serve as inspiration for your own Vim customization. Good luck!
