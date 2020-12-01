@@ -1,12 +1,9 @@
 # 211-vim-setup 
-Want your vim to be set up just like the one in the comp 211 container?   
-To customize vim, you need to edit your vimrc and install plugins. These shell scripts should do that for you.  
-Just follow the steps below!
+Vim is a great text editor, but it does require some configuration to be useful. 
+ 
+If you enjoyed using the Vim setup in 211, and you want to use the same outside of the container, the scripts here should do that for you. Just follow the steps below. Also, if you're interested in further customization, I've included some tips towards the end to help you get started. 
 
 Running these scripts will overwrite whatever current configuration you have. Please make sure that this is what you want before doing this.  
-
-These scripts may take a while to run, and there is no guarantee that they will work on all operating systems.  
-If your OS is outdated, there may be issues with the YouCompleteMe installation (last line of the shell scripts), as it requires more recent versions of Vim, Python, and your C/C++ compilers. [Here](https://ycm-core.github.io/YouCompleteMe/#installation) is a link to the YCM installation page incase you run into any problems. 
 
 ### Preparation
 1. If you are on Windows, you will need to download a Linux distribution, then you can run the Linux option. I recommend downloading Ubuntu through the Microsoft store. If you like using the Windows Terminal, you can use it with Ubuntu by opening a new tab on the top and selecting Ubuntu once it's installed. 
@@ -17,12 +14,13 @@ If your OS is outdated, there may be issues with the YouCompleteMe installation 
 3. If you are using Linux, you should be good to go.  
 
 ### Steps
+
 1. Clone repository and enter folder  
 ```sh
 git clone https://github.com/dylanbinley/211-vim-setup.git  
 cd 211-vim-setup
 ```
-2.  Give permission to run the shell script  
+2.  Give permission to run the shell script. Choose the mac or linux script depending on your operating system.
 ```sh
 chmod u+x vim-setup-<linux/mac>.sh
 ```
@@ -30,11 +28,20 @@ chmod u+x vim-setup-<linux/mac>.sh
 ```sh
 ./vim-setup-<linux/mac>.sh
 ```
+4. Open Vim outside the container. If all went well, it should be the same setup from 211!
+```sh
+vim <file>
+```
 >All code adapted from the 211 container (https://github.com/comp211/comp211-container).  
 >I encourage you guys to check it out!  
 
+### Potential problems
+- If you used the script for MacOs, there is a chance that it exits prematurely. If you never saw Vim open to install plugins, try running the script a second time.
+- If you see an error with the YouCompleteMe installation (a plugin for autocomplete), your operating system may be outdated. YouCompleteMe requires more recent versions of Vim, Python, and C/C++ compilers. Typically, these can be installed on older machines, but it may require more effort. [Here](https://ycm-core.github.io/YouCompleteMe/#installation) is a link to the YCM installation page to help you get started. 
+- If you notice one of your keyboard keys isn't working as expected, you may need to add extra key mappings to your vimrc. Searching the web is probably your best bet, but some of the information below may help you get started too.
+
 ### Extra configuation
-As mentioned, all the Vim configuring is done in the vimrc. To open your vimrc and modify it, run the following command:  
+To customize Vim, you need to edit your vimrc. To open your vimrc and modify it, run the following command:  
 ```sh
 vim ~/.vimrc
 ```
