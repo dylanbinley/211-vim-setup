@@ -36,12 +36,12 @@ vim <file>
 >I encourage you guys to check it out!  
 
 ### Potential problems
-- If you used the script for macOS, there is a chance that it exits prematurely. If you never saw Vim open to install plugins, try running the script a second time.
+- If you use the script for macOS, there is a chance that it exits prematurely. If you never saw Vim open and install plugins, try running the script a second time.
 - If you see an error with the YouCompleteMe installation (a plugin for autocomplete), your operating system may be outdated. YouCompleteMe requires more recent versions of Vim, Python, and C/C++ compilers. Typically, these can be installed on older machines, but it may require more effort. [Here](https://ycm-core.github.io/YouCompleteMe/#installation) is a link to the YCM installation page to help you get started. 
-- If you notice one of your keyboard keys isn't working as expected, you may need to add extra key mappings to your vimrc. Searching the web is probably your best bet, but some of the information below may help too.
+- If one of your keyboard keys isn't working, you may need to add extra key mappings to your vimrc. Searching the web is probably your best bet, but some of the information below may help too.
 
 ### Extra configuation
-To customize Vim, you need to edit your vimrc. To open your vimrc and modify it, run the following command:  
+To customize Vim, you need to edit your vimrc. You can open your vimrc with the following command:  
 ```sh
 vim ~/.vimrc
 ```
